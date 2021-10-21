@@ -1,0 +1,363 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    text-decoration: none;
+    color: black;
+    list-style: none;
+    border-collapse: collapse;
+/*    font-family: futura, sans-serif; futura in local computer doesn't include all the font weight option. You need to link a specific font style if you want to use different font style. /**/
+    font-family: 'Nunito', sans-serif; /* this is just a test. I linked to Nunio 100 as an example. Go to Google webfont website, find a specific font style you want to use, link it in HTML <head> and use it in CSS */
+}
+
+h1{
+    font-size: 100px;
+}
+h2{
+    font-size: 70px;
+}
+h3{
+    font-size: 30px;
+    padding-bottom: 10px;
+    padding-top: 5px;
+}
+p{
+    font-size: 23px;
+    font-weight: 100;
+}
+
+
+.intro_bg{
+    background-image:url("images/intro.png");
+    background-size: contain; /* try contain as it will resize the image as the web browser's size is changed. */
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 1450px;
+}
+
+.header{
+    width: 100%;
+    height: 70px;
+}
+
+.beelieve_left{
+    width: 20%;
+    float: left;
+    height: 50px;
+    margin-left: 20px;
+    padding:20px;
+    line-height: 40px;
+    font-weight: 700;
+    color:white;
+    position: fixed;
+}
+
+.nav{
+    width: 80%;
+    float: right;
+    height: 30px;
+    padding:20px;
+    line-height: 40px;
+    width:100%;
+    font-weight: lighter;
+    position: fixed;
+    background-color: #141c38;
+/*    apply background-color->logo disapper*/
+}
+
+.nav li {
+    display: inline-block; /*make the nav li to horizontal menu */
+    float: right;
+    margin: left 52px;
+    margin-right: 52px;
+}
+
+
+.nav >li a{
+    color:white;
+}
+    
+
+.intro_text {
+    width: 100%;
+    margin: 260px auto auto auto; /* I changed to 200px instead of 300px to make the text located higher */
+    text-align: center;
+
+}
+.intro_text > h1{
+    color:white;
+    font-size: 100px;
+}
+.intro_text > h4 {
+    color:white;
+    font-size: medium;
+}
+
+.about > h2{
+    padding-top:60px;
+    color:#FBB03A;
+}
+
+.about{
+    width: 40%;
+    height: 500px;
+    text-align: left;
+    margin-left: auto;
+    margin-top: -70px;
+    margin-bottom: 120px;
+    padding-right: 100px;
+    padding-bottom: 100px;
+    padding-left: 30px;
+}
+
+.about >img{
+    width: 95%;
+    height:auto;
+    margin-left: -820px;
+    margin-bottom: auto;
+    margin-top: -380px; 
+}
+.img_about2{
+    width:80%;
+    margin-left:-910px;
+    margin-top: -140px;
+    margin-bottom: auto;
+}
+
+.timeline >h2 {
+    color:#FBB03A;
+    opacity: 1;
+    padding-right: 30px;
+    padding-top: 100px;
+    padding-bottom: 100px;
+    padding-left: 100px;
+}
+
+.timeline_bg {
+    width:100%;
+    height: 1350px;
+    background-color: #f9f9f9;
+}
+.timeline >img {
+    width:100%;
+    height: auto;
+    margin-top:-280px;
+}
+
+.our >h2{
+    color: white;
+}
+.our >p{
+    color: white;
+}
+
+.our_bg{
+    background-image:url("images/002.png");
+    background-size: contain; 
+    background-repeat: no-repeat;
+    width: 100%;
+    height: auto;
+    margin-top:-60px;
+}
+
+.our{
+    width: 40%;
+    height: 1200px;
+    text-align: left;
+    margin-right: auto;
+    padding-right: 30px;
+    padding-top: 450px;
+    padding-bottom: 30px;
+    padding-left: 100px; 
+}
+
+.our >img{
+    width:100%;
+    margin-left: 890px;
+    margin-top: 615px;
+    padding: 12px
+}
+.img_mission001 {
+    width: 80%;
+    height: auto;
+    margin-top: -1760px;
+    margin-left: 1000px;
+}
+
+.features > h2{
+    color: #FBB03A;
+    font-weight: 900;
+   
+     
+    
+}
+
+.features{
+    width: 40%;
+    height: 600px;
+    text-align: left;
+    margin-top: 500px;
+    margin-left: auto;
+    padding-top: 60px;
+    padding-right: 100px;
+    padding-bottom: 30px;
+    padding-left: 30px;
+}
+
+.features >img{
+    width: 130%;
+    height: auto;
+    margin-top: -960px;
+    margin-left: -1020px;
+}
+
+.img_features3units {
+    width: 50%;
+    height: auto;
+    margin-top: -1050px;
+    margin-left: 290px;
+}
+.user_bg {
+    width:100%;
+    height: 1100px;
+    background-color: #FBB03B;
+    opacity: 1;    
+}
+.user_bg >h2 {
+    padding-top: 175px;
+    padding-left: 100px;
+    Padding-bottom: 60px;
+}
+.user_stories{
+    background-color: aqua;
+}
+.user {
+    width: 40%;
+    height: 600px;
+    text-align: left;
+    margin-top: 90px;
+    margin-right: auto;
+    padding-right: 30px;
+    padding-top: 60px;
+    padding-bottom: 30px;
+    padding-left: 100px; 
+}
+
+.user >img {
+    position: relative;
+    float: left;
+    width: 25%;
+    height: auto;
+    margin-top: -640px;
+    padding: 20px
+}
+.user2 {   
+    width: 40%;
+    height: 600px;
+    text-align: left;
+    margin-top: -660px;
+    margin-left: auto;
+    padding-top:30px;
+    padding-right: 100px;
+    padding-bottom: 50px;
+    padding-left: 30px; 
+}
+.user2 >img {
+    position: relative;
+    float:left;
+    width: 24%;
+    height: auto;
+    margin-top: -645px;
+  
+}
+.user >h3{
+    margin-top:25px;
+}
+.user2 >h3{
+    margin-top:25px;
+}
+.user2 >p {
+    margin-top:25px
+}
+.user>p {
+    margin-top: 25px 
+}
+
+.apply_box{
+    width:200px;
+    height: 400px;
+}
+.apply_box >h2 {
+    padding-top: 0px;
+    padding-left: 950px;
+    Padding-bottom: 60px;
+    color: #FBB03A;
+    }
+.box {
+    width: 62%;
+    height: auto;
+    margin-top: -420px;
+}
+
+.number {
+  width: 100%;
+    height: auto;
+    margin-top: -310px;
+     margin-left: 600px;
+}
+
+.step1 >h3 {
+    margin-top: -280px;
+    margin-left: 700px;    
+}
+.step2 >h3 {
+    margin-top: 20px;
+    margin-left: 700px;    
+}
+.step3 >h3 {
+    margin-top: 20px;
+    margin-left: 700px;    
+}
+.step4 >h3 {
+    margin-top: 20px;
+    margin-left: 700px;    
+}
+.ourteam_box{
+    width: 1450px;
+    height: 770px;
+    margin-top: 17px;
+    background-color:#1D2B58;
+}
+.ourteam_box >h2 {
+    padding-top: 40px;
+    padding-left: 30px;
+    Padding-bottom: 0px;
+    color: white;
+}
+.krit >p{  
+ color: white;
+ text-align: left;
+margin-left: 650px;
+margin-right: 70px;
+margin-top: 90px;
+}
+
+.yong >p{  
+ color: white;
+ text-align: left;
+margin-left: 650px;
+margin-right: 70px;
+margin-top: 90px;
+}
+
+.kritim {
+    width: 100%;
+    height: auto;
+    margin-top: -475px;
+     margin-left: 160px
+   }
+.yongim {
+    width: 100%;
+    height: auto;
+    margin-top: 40px;
+     margin-left: 160px
+   }
